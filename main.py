@@ -52,5 +52,11 @@ for j in range(1, 14):
     scores = [float(i[j]) for i in wines]
     scope.append(max(scores) - min(scores))
 print(scope)
+#half sum for each attribute
+hsum_list = []
+for j in range(1, 14):
+    hsum = [float(i[j]) for i in wines]
+    hsum_list.append((max(hsum) + min(hsum)) / 2)
+print(hsum_list)
 
 
