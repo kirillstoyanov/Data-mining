@@ -8,7 +8,7 @@ import java.util.Date;
 public class UserTest extends TestCase {
 
     private static final int DAY_OF_BIRTH = 13;
-    private static final int DAY_OF_BIRTH_1 = 14;
+    private static final int DAY_OF_BIRTH_1 = 17;
     private static final int DAY_OF_BIRTH_2 = 1;
     private static final int DAY_OF_BIRTH_3 = 20;
 
